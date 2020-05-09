@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<head><meta http-equiv="Content-Type" content="text/html; charset=big5">
   
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -1721,3 +1721,273 @@ else{
           </section>
    
   </section>
+  
+  
+      
+<section>
+    <div class="container-fluid" id="second">
+      <div class="text-center">
+        
+        <h1 class="mt-4" style="margin-top: 20px;position: relative;">
+          <span class="badge badge-dark" style="background-color:white;color:black;margin-top: 30px;">DEFENCE
+        &nbsp;&nbsp;
+        </span>
+        <hr style="height:1px;background-color: black;width: 500px;">
+         </h1>
+                
+              </div>
+      <div class="row">
+             <?php 
+                    $con=mysqli_connect("localhost","writewing","9005314@Ad","greatten");
+                    
+                    $sel="SELECT * FROM topten where category='DEFENCE' limit 0,4";
+                    if($result=mysqli_query($con,$sel)){
+                       
+                        while($row=mysqli_fetch_assoc($result)){
+                           
+                           $title=$row["title"];
+                           $category=$row["category"];
+                           $img8=$row["img8"];
+                           $id=$row["id"];
+                        //   $id2=md5($id);
+                      
+                    ?>
+       <div class="col-lg-3 col-md-12 mt-4">
+   
+         <!--News tile -->
+         <div class="news-tile view zoom z-depth-1 rounded mb-4">
+           <a href="#!" class="text-white">
+             <img src="images/<?php echo $img8 ?>"
+               class="img-fluid rounded-bottom" alt="sample image" style="height:200px;width:100%;">
+             <div class="mask rgba-stylish-strong">
+               <div class="text-white text-center py-lg-5 py-0 my-0">
+                 <div>
+                   <h6 class="badge badge-danger" >
+                     TECHNOLOGY<span></span></h6>
+                   <h5 class="card-title pt-2" id="third_head">
+                  <a href="include/fulldetail.php?id=<?php echo $id; ?>" style="color:white;"><?PHP echo $title; ?></a> 
+                   </h5>
+   
+                   <p class="mx-5 clearfix d-none d-md-block"></p>
+                 </div>
+               </div>
+             </div>
+           </a>
+   
+         </div>
+         <!--News tile -->
+   
+       </div>
+       <?php }} ?>
+       <!--col-4-->
+     
+       <!--col-4-->
+     
+       
+       
+       <!--col-4-->
+     
+       <!--col-4-->
+       <div class="col-4">
+         <div class="single-news mb-4">
+           <?php 
+                    $con=mysqli_connect("localhost","writewing","9005314@Ad","greatten");
+                    
+                    $sel="SELECT * FROM topten where category='DEFENCE' limit 4,4";
+                    if($result=mysqli_query($con,$sel)){
+                       
+                        while($row=mysqli_fetch_assoc($result)){
+                           
+                           $title=$row["title"];
+                           $category=$row["category"];
+                           $img8=$row["img8"];
+                           $id=$row["id"];
+                        //   $id2=md5($id);
+                      
+                    ?>
+           <!-- Grid row -->
+           <div class="row">
+   
+             <!-- Grid column -->
+             <div class="col-md-3">
+   
+               <!--Image-->
+               <div class="view overlay rounded z-depth-1 mb-4">
+                 <img class="img-fluid" src="images/<?php echo $img8; ?>" alt="Sample image" style="height:100px;width:100%;">
+                 <a>
+                   <div class="mask rgba-white-slight"></div>
+                 </a>
+               </div>
+   
+             </div>
+             <!-- Grid column -->
+   
+             <!-- Grid column -->
+             <div class="col-md-9">
+   
+               <!-- Excerpt -->
+               <p class="badge badge-danger"><?php echo $category; ?></p>
+               <div class="d-flex justify-content-between">
+                 <div class="col-12 pl-0 mb-3">
+                   <a href="#!" style="color:#00264d !important;font-weight:normal;"><?php echo $title; ?></a>
+                 </div>
+                 
+               </div>
+   
+             </div>
+             <!-- Grid column -->
+   
+           </div>
+           <?php }} ?>
+           <!-- Grid row -->
+   <hr style="background: white;">
+         </div><!--single news-->
+         
+       </div><!--child col-3-->
+       <div class="col-8">
+         <div class="container">
+   
+   
+           <!--Section: Content-->
+           <section class="magazine-section dark-grey-text">
+         
+         
+         
+             <!-- Grid row -->
+             <div class="row">
+           <?php 
+                    $con=mysqli_connect("localhost","writewing","9005314@Ad","greatten");
+                    
+                    $sel="SELECT * FROM topten where category='DEFENCE' limit 8,1";
+                    if($result=mysqli_query($con,$sel)){
+                       
+                        while($row=mysqli_fetch_assoc($result)){
+                           
+                           $title=$row["title"];
+                           $category=$row["category"];
+                           $img8=$row["img8"];
+                           $id=$row["id"];
+                        //   $id2=md5($id);
+                        }}
+                      
+                    ?>
+               <!-- Grid column -->
+               <div class="col-lg-6 col-md-12 mb-4 text-white">
+         
+                 <!-- Featured news -->
+                 <div class="single-news">
+         
+                   <!-- Image -->
+                   <div class="view overlay rounded z-depth-1-half mb-4">
+                     <img class="img-fluid" src="images/<?php  echo $img8 ?>" alt="Sample image" style="width:100%;height:300px;">
+                     <a>
+                       <div class="mask rgba-white-slight"></div>
+                     </a>
+                   </div>
+         
+                   <!-- Data -->
+                   <div class="news-data d-flex justify-content-between">
+                     <a href="#!" class="deep-orange-text">
+                       <h2 class="font-weight-bold"><span class="badge badge-danger"><?php echo $category; ?></span></h2>
+                     </a>
+                   
+                   </div>
+         
+                   <!-- Excerpt -->
+                   <h3 class=""><a style="color:#00264d !important;font-weight:normal;" href="include/fulldetail.php?id=<?php $id; ?>">
+                       <?php echo $title; ?>
+                   </a></h3>
+                     <a style="background-color:#00264d !important;font-weight:normal;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" class="btn btn-sm">
+                       Read More
+                   </a>
+         
+                 </div>
+                 <!-- Featured news -->
+         
+               </div>
+               <!-- Grid column -->
+         
+               <!-- Grid column -->
+               <div class="col-lg-6 col-md-12 mb-4">
+         
+                   <div class="">
+         <div class="single-news mb-4">
+           <?php 
+                    $con=mysqli_connect("localhost","writewing","9005314@Ad","greatten");
+                    
+                    $sel="SELECT * FROM topten where category='DEFENCE' limit 9,4";
+                    if($result=mysqli_query($con,$sel)){
+                       
+                        while($row=mysqli_fetch_assoc($result)){
+                           
+                           $title=$row["title"];
+                           $category=$row["category"];
+                           $img8=$row["img8"];
+                           $id=$row["id"];
+                        //   $id2=md5($id);
+                      
+                    ?>
+           <!-- Grid row -->
+           <div class="row">
+   
+             <!-- Grid column -->
+             <div class="col-md-3">
+   
+               <!--Image-->
+               <div class="view overlay rounded z-depth-1 mb-4">
+                 <img class="img-fluid" src="images/<?php echo $img8; ?>" alt="Sample image" style="height:100px;width:100%;">
+                 <a>
+                   <div class="mask rgba-white-slight"></div>
+                 </a>
+               </div>
+   
+             </div>
+             <!-- Grid column -->
+   
+             <!-- Grid column -->
+             <div class="col-md-9">
+   
+               <!-- Excerpt -->
+               <p class="badge badge-danger"><?php echo $category; ?></p>
+               <div class="d-flex justify-content-between">
+                 <div class="col-12 pl-0 mb-3">
+                   <a href="#!" style="color:#00264d !important;font-weight:normal;"><?php echo $title; ?></a>
+                 </div>
+                 
+               </div>
+   
+             </div>
+             <!-- Grid column -->
+   
+           </div>
+           <?php }} ?>
+           <!-- Grid row -->
+   <hr style="background: white;">
+         </div><!--single news-->
+         
+       </div>
+                 <!-- Small news -->
+         
+               </div>
+               <!--Grid column-->
+         
+             </div>
+             <!-- Grid row -->
+         
+           </section>
+           <!--Section: Content-->
+         
+         
+         </div>
+       </div><!--child col-6-->
+     
+      </div><!--row end-->
+    </div>
+   </section>
+  
+  
+  
+  
+  
+  
+  
