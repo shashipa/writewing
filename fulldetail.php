@@ -256,8 +256,8 @@ $category=$row["cateogry"];
 
 
 ?>
-
-                <div class="col-lg-9 col-sm-12 col-md-12 mt-5" *ngFor="let detail of fulldetail">
+<section class="d-none d-md-block">
+     <div class="col-lg-9 col-sm-12 col-md-12 mt-5" *ngFor="let detail of fulldetail">
                     <div class="my-3">
                         <h6>
                             <span class="badge badge-success z-depth-0">Success</span>&nbsp;
@@ -293,7 +293,7 @@ $category=$row["cateogry"];
                                 &nbsp;&nbsp;</h1>
                                 </div>
                                 <div class="col-10 ml-3 mt-2">
-                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;">
+                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
                                         <?php echo $name10; ?></H3>
                                     <hr>
                                 <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
@@ -367,7 +367,7 @@ $category=$row["cateogry"];
                                    <h1><span class="badge badge-warning z-depth-0">9</span></h1>
                                 </div>
                                 <div class="col-10 ml-3 mt-2">
-                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;">
+                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
                                      <?php echo $name9 ?></H3>
                                     <hr>
                                 <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
@@ -441,7 +441,7 @@ $category=$row["cateogry"];
                                    <h1><span class="badge badge-warning z-depth-0">8</span></h1>
                                 </div>
                                 <div class="col-10 ml-3 mt-2">
-                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;"><?php echo $name8 ?></H3>
+                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;"><?php echo $name8 ?></H3>
                                     <hr>
                                 <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
                                 color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 18px;">
@@ -514,7 +514,7 @@ $category=$row["cateogry"];
                                    <h1><span class="badge badge-warning z-depth-0">7</span></h1>
                                 </div>
                                 <div class="col-10 ml-3 mt-2">
-                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;"><?php echo $name7 ?></H3>
+                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;"><?php echo $name7 ?></H3>
                                     <hr>
                                 <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
                                 color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 18px;">
@@ -587,7 +587,7 @@ $category=$row["cateogry"];
                                    <h1><span class="badge badge-warning z-depth-0">6</span></h1>
                                 </div>
                                 <div class="col-10 ml-3 mt-2">
-                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;"><?php echo $name6 ?></H3>
+                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;"><?php echo $name6 ?></H3>
                                     <hr>
                                 <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
                                 color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 18px;">
@@ -660,7 +660,7 @@ $category=$row["cateogry"];
                                    <h1><span class="badge badge-warning z-depth-0">5</span></h1>
                                 </div>
                                 <div class="col-10 ml-3 mt-2">
-                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;"><?php echo $name5 ?></H3>
+                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;"><?php echo $name5 ?></H3>
                                     <hr>
                                 <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
                                 color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 18px;">
@@ -733,7 +733,7 @@ $category=$row["cateogry"];
                                    <h1><span class="badge badge-warning z-depth-0">4</span></h1>
                                 </div>
                                 <div class="col-10 ml-3 mt-2">
-                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;"><?php echo $name4 ?></H3>
+                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;"><?php echo $name4 ?></H3>
                                     <hr>
                                 <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
                                 color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 18px;">
@@ -806,7 +806,7 @@ $category=$row["cateogry"];
                                    <h1><span class="badge badge-warning z-depth-0">3</span></h1>
                                 </div>
                                 <div class="col-10 ml-3 mt-2">
-                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;"><?php echo $name3 ?></H3>
+                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;"><?php echo $name3 ?></H3>
                                     <hr>
                                 <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
                                 color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 18px;">
@@ -879,7 +879,7 @@ $category=$row["cateogry"];
                                    <h1><span class="badge badge-warning z-depth-0">2</span></h1>
                                 </div>
                                 <div class="col-10 ml-3 mt-2">
-                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;"><?php echo $name2 ?></H3>
+                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;"><?php echo $name2 ?></H3>
                                     <hr>
                                 <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
                                 color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 18px;">
@@ -952,7 +952,7 @@ $category=$row["cateogry"];
                                    <h1><span class="badge badge-warning z-depth-0">1</span></h1>
                                 </div>
                                 <div class="col-10 ml-3 mt-2">
-                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;"><?php echo $name1 ?></H3>
+                                    <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;"><?php echo $name1 ?></H3>
                                     <hr>
                                 <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
                                 color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 18px;">
@@ -1012,6 +1012,689 @@ $category=$row["cateogry"];
                           </div><!--child 9-->
                     </div><!--child row-->
                     </div>
+</section>
+<section class="d-sm-block d-md-none">
+     <div class="col-lg-9 col-sm-12 col-md-12 mt-5" *ngFor="let detail of fulldetail">
+                    <div class="my-3">
+                      
+                    </div>
+                    <div class="my-1">
+                        <h4 style="font-family: -apple-system, BlinkMacSystemFont, 
+                        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+                         sans-serif;font-weight: bold;text-transform: uppercase;color: #00264d;"><?php echo $title; ?></h4>
+                    </div>
+                    <div class="my-1">
+                        <div class="chip chip-sm danger-color white-text">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img(21).jpg" alt="Contact Person" 
+                            id="img">SHASHI SHEKHAR PATHAK
+                          </div>
+                    </div>
+                    <div class="row my-2" >
+                          <div class="col-lg-3 col-md-6 col-sm-12 my-1">
+                            <div
+                            class="avatar w-100 white d-flex justify-content-center align-items-center"
+                          >
+                            <img
+                              src="../images/<?php echo $img10; ?>"
+                              class="img-fluid rounded-circle z-depth-1" style="height:200px;width:200px;"/>
+                          </div>
+                          </div><!--child 3-->
+                          <div class="col-lg-9 col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 my-1 mr-3 text-center">
+                                    <div class="row">
+                                        <div class="col-2 mt-2">
+                                              <h2 class="text-center"><span class="badge badge-warning z-depth-0">10</span></h2>
+                                        </div>
+                                        <div class="col-10 mt-3">
+                                             <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
+                                        <?php echo $name10; ?></H3>
+                                        </div>
+                                    </div>
+                                    
+                                 
+                                
+                                </div>
+                                <div class="col-12 text-center">
+                                   
+                                    <hr>
+                                <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                                <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;<?php echo $desc10 ?>&nbsp;
+                                      <sup> <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i></sup>
+                                </p>
+                                <p class="my-3 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;"> 
+                                  <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;
+                                   <?php echo $desc10_b ?>&nbsp;
+                                     <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                                    </p>
+                             <p class="my-2 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                             color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                               <sup>
+                                <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                color:#ff0066;"></i>
+                            </sup>&nbsp;
+                                <?php echo $desc10_c ?>&nbsp;
+                              
+                                    <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                             </p>         
+ 
+                                </div>
+                            </div>
+                          </div><!--child 9-->
+                           <div class="col-lg-3 col-md-6 col-sm-12 my-1">
+                            <div
+                            class="avatar w-100 white d-flex justify-content-center align-items-center"
+                          >
+                            <img
+                              src="../images/<?php echo $img9; ?>"
+                              class="img-fluid rounded-circle z-depth-1" style="height:200px;width:200px;"/>
+                          </div>
+                          </div><!--child 3-->
+                          <div class="col-lg-9 col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 my-1 mr-3 text-center">
+                                    <div class="row">
+                                        <div class="col-2 mt-2">
+                                              <h2 class="text-center"><span class="badge badge-warning z-depth-0">10</span></h2>
+                                        </div>
+                                        <div class="col-10 mt-3">
+                                             <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
+                                        <?php echo $name9; ?></H3>
+                                        </div>
+                                    </div>
+                                    
+                                 
+                                
+                                </div>
+                                <div class="col-12 text-center">
+                                   
+                                    <hr>
+                                <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                                <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;<?php echo $desc9 ?>&nbsp;
+                                      <sup> <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i></sup>
+                                </p>
+                                <p class="my-3 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;"> 
+                                  <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;
+                                   <?php echo $desc9_b ?>&nbsp;
+                                     <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                                    </p>
+                             <p class="my-2 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                             color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                               <sup>
+                                <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                color:#ff0066;"></i>
+                            </sup>&nbsp;
+                                <?php echo $desc9_c ?>&nbsp;
+                              
+                                    <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                             </p>         
+ 
+                                </div>
+                            </div>
+                          </div><!--child 9-->
+                           <div class="col-lg-3 col-md-6 col-sm-12 my-1">
+                            <div
+                            class="avatar w-100 white d-flex justify-content-center align-items-center"
+                          >
+                            <img
+                              src="../images/<?php echo $img8; ?>"
+                              class="img-fluid rounded-circle z-depth-1" style="height:200px;width:200px;"/>
+                          </div>
+                          </div><!--child 3-->
+                          <div class="col-lg-9 col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 my-1 mr-3 text-center">
+                                    <div class="row">
+                                        <div class="col-2 mt-2">
+                                              <h2 class="text-center"><span class="badge badge-warning z-depth-0">10</span></h2>
+                                        </div>
+                                        <div class="col-10 mt-3">
+                                             <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
+                                        <?php echo $name8; ?></H3>
+                                        </div>
+                                    </div>
+                                    
+                                 
+                                
+                                </div>
+                                <div class="col-12 text-center">
+                                   
+                                    <hr>
+                                <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                                <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;<?php echo $desc8 ?>&nbsp;
+                                      <sup> <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i></sup>
+                                </p>
+                                <p class="my-3 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;"> 
+                                  <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;
+                                   <?php echo $desc8_b ?>&nbsp;
+                                     <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                                    </p>
+                             <p class="my-2 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                             color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                               <sup>
+                                <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                color:#ff0066;"></i>
+                            </sup>&nbsp;
+                                <?php echo $desc8_c ?>&nbsp;
+                              
+                                    <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                             </p>         
+ 
+                                </div>
+                            </div>
+                          </div><!--child 9-->
+                           <div class="col-lg-3 col-md-6 col-sm-12 my-1">
+                            <div
+                            class="avatar w-100 white d-flex justify-content-center align-items-center"
+                          >
+                            <img
+                              src="../images/<?php echo $img7; ?>"
+                              class="img-fluid rounded-circle z-depth-1" style="height:200px;width:200px;"/>
+                          </div>
+                          </div><!--child 3-->
+                          <div class="col-lg-9 col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 my-1 mr-3 text-center">
+                                    <div class="row">
+                                        <div class="col-2 mt-2">
+                                              <h2 class="text-center"><span class="badge badge-warning z-depth-0">10</span></h2>
+                                        </div>
+                                        <div class="col-10 mt-3">
+                                             <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
+                                        <?php echo $name7; ?></H3>
+                                        </div>
+                                    </div>
+                                    
+                                 
+                                
+                                </div>
+                                <div class="col-12 text-center">
+                                   
+                                    <hr>
+                                <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                                <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;<?php echo $desc7 ?>&nbsp;
+                                      <sup> <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i></sup>
+                                </p>
+                                <p class="my-3 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;"> 
+                                  <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;
+                                   <?php echo $desc7_b ?>&nbsp;
+                                     <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                                    </p>
+                             <p class="my-2 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                             color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                               <sup>
+                                <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                color:#ff0066;"></i>
+                            </sup>&nbsp;
+                                <?php echo $desc7_c ?>&nbsp;
+                              
+                                    <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                             </p>         
+ 
+                                </div>
+                            </div>
+                          </div><!--child 9-->
+                           <div class="col-lg-3 col-md-6 col-sm-12 my-1">
+                            <div
+                            class="avatar w-100 white d-flex justify-content-center align-items-center"
+                          >
+                            <img
+                              src="../images/<?php echo $img6; ?>"
+                              class="img-fluid rounded-circle z-depth-1" style="height:200px;width:200px;"/>
+                          </div>
+                          </div><!--child 3-->
+                          <div class="col-lg-9 col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 my-1 mr-3 text-center">
+                                    <div class="row">
+                                        <div class="col-2 mt-2">
+                                              <h2 class="text-center"><span class="badge badge-warning z-depth-0">10</span></h2>
+                                        </div>
+                                        <div class="col-10 mt-3">
+                                             <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
+                                        <?php echo $name6; ?></H3>
+                                        </div>
+                                    </div>
+                                    
+                                 
+                                
+                                </div>
+                                <div class="col-12 text-center">
+                                   
+                                    <hr>
+                                <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                                <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;<?php echo $desc6 ?>&nbsp;
+                                      <sup> <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i></sup>
+                                </p>
+                                <p class="my-3 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;"> 
+                                  <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;
+                                   <?php echo $desc6_b ?>&nbsp;
+                                     <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                                    </p>
+                             <p class="my-2 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                             color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                               <sup>
+                                <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                color:#ff0066;"></i>
+                            </sup>&nbsp;
+                                <?php echo $desc6_c ?>&nbsp;
+                              
+                                    <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                             </p>         
+ 
+                                </div>
+                            </div>
+                          </div><!--child 9-->
+                           <div class="col-lg-3 col-md-6 col-sm-12 my-1">
+                            <div
+                            class="avatar w-100 white d-flex justify-content-center align-items-center"
+                          >
+                            <img
+                              src="../images/<?php echo $img5; ?>"
+                              class="img-fluid rounded-circle z-depth-1" style="height:200px;width:200px;"/>
+                          </div>
+                          </div><!--child 3-->
+                          <div class="col-lg-9 col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 my-1 mr-3 text-center">
+                                    <div class="row">
+                                        <div class="col-2 mt-2">
+                                              <h2 class="text-center"><span class="badge badge-warning z-depth-0">10</span></h2>
+                                        </div>
+                                        <div class="col-10 mt-3">
+                                             <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
+                                        <?php echo $name5; ?></H3>
+                                        </div>
+                                    </div>
+                                    
+                                 
+                                
+                                </div>
+                                <div class="col-12 text-center">
+                                   
+                                    <hr>
+                                <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                                <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;<?php echo $desc5 ?>&nbsp;
+                                      <sup> <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i></sup>
+                                </p>
+                                <p class="my-3 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;"> 
+                                  <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;
+                                   <?php echo $desc5_b ?>&nbsp;
+                                     <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                                    </p>
+                             <p class="my-2 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                             color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                               <sup>
+                                <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                color:#ff0066;"></i>
+                            </sup>&nbsp;
+                                <?php echo $desc5_c ?>&nbsp;
+                              
+                                    <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                             </p>         
+ 
+                                </div>
+                            </div>
+                          </div><!--child 9-->
+                           <div class="col-lg-3 col-md-6 col-sm-12 my-1">
+                            <div
+                            class="avatar w-100 white d-flex justify-content-center align-items-center"
+                          >
+                            <img
+                              src="../images/<?php echo $img4; ?>"
+                              class="img-fluid rounded-circle z-depth-1" style="height:200px;width:200px;"/>
+                          </div>
+                          </div><!--child 3-->
+                          <div class="col-lg-9 col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 my-1 mr-3 text-center">
+                                    <div class="row">
+                                        <div class="col-2 mt-2">
+                                              <h2 class="text-center"><span class="badge badge-warning z-depth-0">10</span></h2>
+                                        </div>
+                                        <div class="col-10 mt-3">
+                                             <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
+                                        <?php echo $name4; ?></H3>
+                                        </div>
+                                    </div>
+                                    
+                                 
+                                
+                                </div>
+                                <div class="col-12 text-center">
+                                   
+                                    <hr>
+                                <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                                <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;<?php echo $desc4 ?>&nbsp;
+                                      <sup> <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i></sup>
+                                </p>
+                                <p class="my-3 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;"> 
+                                  <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;
+                                   <?php echo $desc4_b ?>&nbsp;
+                                     <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                                    </p>
+                             <p class="my-2 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                             color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                               <sup>
+                                <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                color:#ff0066;"></i>
+                            </sup>&nbsp;
+                                <?php echo $desc4_c ?>&nbsp;
+                              
+                                    <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                             </p>         
+ 
+                                </div>
+                            </div>
+                          </div><!--child 9-->
+                           <div class="col-lg-3 col-md-6 col-sm-12 my-1">
+                            <div
+                            class="avatar w-100 white d-flex justify-content-center align-items-center"
+                          >
+                            <img
+                              src="../images/<?php echo $img3; ?>"
+                              class="img-fluid rounded-circle z-depth-1" style="height:200px;width:200px;"/>
+                          </div>
+                          </div><!--child 3-->
+                          <div class="col-lg-9 col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 my-1 mr-3 text-center">
+                                    <div class="row">
+                                        <div class="col-2 mt-2">
+                                              <h2 class="text-center"><span class="badge badge-warning z-depth-0">10</span></h2>
+                                        </div>
+                                        <div class="col-10 mt-3">
+                                             <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
+                                        <?php echo $name3; ?></H3>
+                                        </div>
+                                    </div>
+                                    
+                                 
+                                
+                                </div>
+                                <div class="col-12 text-center">
+                                   
+                                    <hr>
+                                <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                                <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;<?php echo $desc3 ?>&nbsp;
+                                      <sup> <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i></sup>
+                                </p>
+                                <p class="my-3 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;"> 
+                                  <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;
+                                   <?php echo $desc3_b ?>&nbsp;
+                                     <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                                    </p>
+                             <p class="my-2 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                             color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                               <sup>
+                                <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                color:#ff0066;"></i>
+                            </sup>&nbsp;
+                                <?php echo $desc3_c ?>&nbsp;
+                              
+                                    <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                             </p>         
+ 
+                                </div>
+                            </div>
+                          </div><!--child 9-->
+                           <div class="col-lg-3 col-md-6 col-sm-12 my-1">
+                            <div
+                            class="avatar w-100 white d-flex justify-content-center align-items-center"
+                          >
+                            <img
+                              src="../images/<?php echo $img2; ?>"
+                              class="img-fluid rounded-circle z-depth-1" style="height:200px;width:200px;"/>
+                          </div>
+                          </div><!--child 3-->
+                          <div class="col-lg-9 col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 my-1 mr-3 text-center">
+                                    <div class="row">
+                                        <div class="col-2 mt-2">
+                                              <h2 class="text-center"><span class="badge badge-warning z-depth-0">10</span></h2>
+                                        </div>
+                                        <div class="col-10 mt-3">
+                                             <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
+                                        <?php echo $name2; ?></H3>
+                                        </div>
+                                    </div>
+                                    
+                                 
+                                
+                                </div>
+                                <div class="col-12 text-center">
+                                   
+                                    <hr>
+                                <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                                <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;<?php echo $desc2 ?>&nbsp;
+                                      <sup> <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i></sup>
+                                </p>
+                                <p class="my-3 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;"> 
+                                  <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;
+                                   <?php echo $desc2_b ?>&nbsp;
+                                     <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                                    </p>
+                             <p class="my-2 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                             color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                               <sup>
+                                <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                color:#ff0066;"></i>
+                            </sup>&nbsp;
+                                <?php echo $desc2_c ?>&nbsp;
+                              
+                                    <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                             </p>         
+ 
+                                </div>
+                            </div>
+                          </div><!--child 9-->
+                           <div class="col-lg-3 col-md-6 col-sm-12 my-1">
+                            <div
+                            class="avatar w-100 white d-flex justify-content-center align-items-center"
+                          >
+                            <img
+                              src="../images/<?php echo $img1; ?>"
+                              class="img-fluid rounded-circle z-depth-1" style="height:200px;width:200px;"/>
+                          </div>
+                          </div><!--child 3-->
+                          <div class="col-lg-9 col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-12 my-1 mr-3 text-center">
+                                    <div class="row">
+                                        <div class="col-2 mt-2">
+                                              <h2 class="text-center"><span class="badge badge-warning z-depth-0">10</span></h2>
+                                        </div>
+                                        <div class="col-10 mt-3">
+                                             <H3 style="text-transform: capitalize;font-weight: bold;color:  #ff0000;text-transform:uppercase;">
+                                        <?php echo $name1; ?></H3>
+                                        </div>
+                                    </div>
+                                    
+                                 
+                                
+                                </div>
+                                <div class="col-12 text-center">
+                                   
+                                    <hr>
+                                <p class="text-justify" style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                                <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;<?php echo $desc1 ?>&nbsp;
+                                      <sup> <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i></sup>
+                                </p>
+                                <p class="my-3 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                                color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;"> 
+                                  <sup>
+                                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                    color:#ff0066;"></i>
+                                </sup>&nbsp;
+                                   <?php echo $desc1_b ?>&nbsp;
+                                     <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                                    </p>
+                             <p class="my-2 text-justify"  style="font-weight: normal;text-transform: capitalize;
+                             color:#001a33;font-family: 'Times New Roman', Times, serif;font-size: 15px;">
+                               <sup>
+                                <i class="fa fa-quote-left" aria-hidden="true" style="font-size: large;
+                                color:#ff0066;"></i>
+                            </sup>&nbsp;
+                                <?php echo $desc1_c ?>&nbsp;
+                              
+                                    <sup>
+                                        <i class="fa fa-quote-right" aria-hidden="true" style="font-size: large;
+                                        color:#ff0066;"></i>
+                                    </sup>
+                             </p>         
+ 
+                                </div>
+                            </div>
+                          </div><!--child 9-->
+                         
+                    </div><!--child row-->
+                    </div>
+</section>
+               
                     <div class="col-lg-3 col-md-6 col-sm-12 my-5">
                        <h4 class="mt-5" 
                        style="font-family: -apple-system, BlinkMacSystemFont, 
