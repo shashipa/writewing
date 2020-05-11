@@ -49,167 +49,8 @@
 </style>
   <!-- Start your project here-->  
  <section>
-    <nav class="navbar  navbar-expand-lg navbar-dark  peach-gradient  scrolling-navbar" style="height: 40px;">
-      <a class="navbar-brand" href="#"><strong>TOP 10</strong></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto" id="ul2">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">AboutUs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">DonateUs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ContactUs</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><i class="fab fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </section>
-  <section>
-
-    <section>
-        <!-- Navigation -->
-    <header>
-      
-      <style>
-       .navbar .navbar-brand img {
-        height: 20px;
-      }
-  
-      .navbar .navbar-brand {
-        padding-top: 0;
-      }
-  
-      .navbar .nav-link {
-        color: #444343!important;
-      }
-  
-      .navbar .button-collapse {
-        padding-top: 1px;
-      }
-  
-      .card-intro .card-body {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        border-radius: 0 !important;
-      }
-  
-      .card-intro .card-body h1 {
-        margin-bottom: 0;
-      }
-  
-      .card-intro {
-        margin-top: 64px;
-      }
-  
-      @media (max-width: 450px) {
-        .card-intro {
-          margin-top: 56px;
-        }
-      }
-  
-      @media (min-width: 1441px) {
-        .card-intro {
-          padding-left: 0 !important;
-        }
-      }
-      </style>
-  
-      <!-- Navbar -->
-      <nav class="navbar  navbar-expand-lg z-depth-0 navbar-light black scrolling-navbar">
-        <div class="container">
-  
-          <!-- Brand -->
-          <a class="navbar-brand waves-effect" href="" target="_blank">
-            <img src="../../assets/images/logo.png" alt="Logo" style="height: 50px;width: 50px;">
-          </a>
-  
-          <!-- Collapse -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <!-- Links -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  
-            <!-- Left -->
-            <ul class="navbar-nav" id="ul">
-              <li class="nav-item">
-                <a class="nav-link waves-effect"  routerLink="">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link waves-effect"  routerLink="/wildlife">WILDLIFE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link waves-effect"  routerLink="/science">SCIENCE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link waves-effect"  routerLink="/countries">COUNTRIES</a>
-              </li>
-          
-              <li class="nav-item">
-                <a class="nav-link waves-effect"  routerLink="/crime">CRIME</a>
-              </li>
-            
-              <li class="nav-item">
-                <a class="nav-link waves-effect"  routerLink="/vehicles">AUTOMOBILE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link waves-effect" routerLink="/defence">DEFENCE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link waves-effect" routerLink="/">MONUMENTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link waves-effect"  routerLink="/people">PEOPLE</a>
-              </li>
-            
-              <li class="nav-item">
-                <a class="nav-link waves-effect"  routerLink="/politics">POLITICS</a>
-              </li>
-            </ul>
-   
-            <!-- Right -->
-          
-  
-          </div>
-  
-        </div>
-      </nav>
-      <!-- Navbar -->
- 
-      <!-- Intro -->
-      <!---->
-    
-     
-      <!-- Intro -->
-  
-    </header>
-    <!-- Navigation -->
-
-    </section>
-
-  </section>
+     <?php include("include/navigation.php") ?>
+ </section>
   
  
   
@@ -217,12 +58,14 @@
   
   
   
-    <section class="d-sm-block d-md-none d-lg-none"><!---------wild ---------------mobile------------------------>
-       <div class="box arrow-bottom text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none" style="border-top: 5px solid white;background-color:#00264d !important;margin-left:10px !important;">
-            <h6 class="text-center font-weight-bold mx-auto"  style="">COUNTRIES&nbsp;
+    <section class="d-sm-block d-md-none d-lg-none container-fluid"><!---------wild ---------------mobile------------------------>
+       <div class=" text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none"
+       style="border-top:5px solid white;color:white;background-color:#cc0000 !important;height:60px;">
+            <h6 class="text-center font-weight-bold mx-auto"  style="line-height:60px;font-size:20px;">COUNTRIES&nbsp;
+            <i class="fas fa-arrow-circle-right"></i>
               </h6> 
           </div>
-          <section>
+          <section class="container-fluid">
               <div class="row">
                     <?php 
                     $con=mysqli_connect("localhost","writewing","9005314@Ad","greatten");
@@ -240,12 +83,12 @@
                       
                     ?>
              
-                 <div class="col-12 d-block d-md-none d-lg-none my-1 card">
+                 <div class="col-sm-12 d-block d-md-none d-lg-none my-1">
             
                   <div class="row">
                     <div class="col-5">
                         <!-- Featured image -->
-                        <div class="view overlay z-depth-3 my-auto" style="margin-top:10px !important;">
+                        <div class="view overlay my-auto" style="margin-top:10px !important;">
                           <img class="img-fluid my-auto" src="images/<?php echo $img8; ?>" alt="Sample image" style="height:120px;width:100%;border-left:5px solid white;border-style:outset;">
                           <a>
                             <div class="mask rgba-white-slight"></div>
@@ -256,16 +99,18 @@
                       <!-- Grid column -->
                 
                       <!-- Grid column -->
-                      <div class="col-7">
+                      <div class="col-7 mt-2">
                         <!-- Post title -->
-                        <h6 class="font-weight-bold my-3"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
-                            style="color:#00264d !important;">
+                        <span class="badge badge-danger z-depth-0" style="background-color:#cc2900 !important; color:white;"><?php echo $category; ?></span>
+                        <h6 class="font-weight-bold"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                            style="color:#001a33 !important;">
                             <?php echo $title; ?>
                         </a></strong></h6>
                         <!-- Excerpt -->
                         <!-- Read more button -->
-                        <a class="btn btn-sm mx-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
-                       > more</a>
+                        <p class="text-muted my-0">Admin | 22/April/2020</p>
+                         <a class="btn btn-sm mx-0 z-depth-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                       > more &nbsp;<i class="far fa-arrow-alt-circle-right"></i></a>
                 
                       </div>
                   </div>
@@ -305,8 +150,8 @@
   <div class="row">
     <div class="col-12 mx-auto text-center" style="margin-left: 550px !important;">
       <div class="box arrow-bottom  mx-auto z-depth-4" style="border-top: 5px solid white;margin-left: 300px;">
-        <h3 class="text-center font-weight-bold mx-auto"  style="margin-left:300px;">COUNTRIES&nbsp;
-          ðŸ¤–</h3> 
+        <h3 class="text-center font-weight-bold mx-auto"  style="margin-left:300px;line-height:20px;">COUNTRIES&nbsp;
+          </h3> 
       </div> 
      </div>
     <div class="col-8">
@@ -662,7 +507,7 @@ else{
         
       <div class="row text-center">
         <div class="box arrow-bottom text-center mx-auto z-depth-4 " style="border-top: 5px solid white;">
-          <h3 class="text-center font-weight-bold mx-auto"  style="margin-left:300px;">ANIMALS&nbsp;
+          <h3 class="text-center font-weight-bold mx-auto"  style="margin-left:300px;line-height:20px;">ANIMALS&nbsp;
           </h3></div>
           
          <div class="col-12">
@@ -750,12 +595,14 @@ else{
         
         <!---wild mobile -->
         
-          <section class="d-sm-block d-md-none d-lg-none"><!---------wild ---------------mobile------------------------>
-       <div class="box arrow-bottom text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none" style="border-top: 5px solid white;background-color:#00264d !important;margin-left:10px !important;">
-            <h6 class="text-center font-weight-bold mx-auto"  style="">WILDLIFE&nbsp;
+         <section class="d-sm-block d-md-none d-lg-none container-fluid"><!---------wild ---------------mobile------------------------>
+       <div class=" text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none"
+       style="border-top:5px solid white;color:white;background-color:#cc0000 !important;height:60px;">
+            <h6 class="text-center font-weight-bold mx-auto"  style="line-height:60px;font-size:20px;">WILDLIFE&nbsp;
+            <i class="fas fa-arrow-circle-right"></i>
               </h6> 
           </div>
-          <section>
+          <section class="container-fluid">
               <div class="row">
                     <?php 
                     $con=mysqli_connect("localhost","writewing","9005314@Ad","greatten");
@@ -773,12 +620,12 @@ else{
                       
                     ?>
              
-                 <div class="col-12 d-block d-md-none d-lg-none my-1 card">
+                 <div class="col-sm-12 d-block d-md-none d-lg-none my-1">
             
                   <div class="row">
                     <div class="col-5">
                         <!-- Featured image -->
-                        <div class="view overlay z-depth-3 my-auto" style="margin-top:10px !important;">
+                        <div class="view overlay my-auto" style="margin-top:10px !important;">
                           <img class="img-fluid my-auto" src="images/<?php echo $img8; ?>" alt="Sample image" style="height:120px;width:100%;border-left:5px solid white;border-style:outset;">
                           <a>
                             <div class="mask rgba-white-slight"></div>
@@ -789,16 +636,18 @@ else{
                       <!-- Grid column -->
                 
                       <!-- Grid column -->
-                      <div class="col-7">
+                      <div class="col-7 mt-2">
                         <!-- Post title -->
-                        <h6 class="font-weight-bold my-3"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
-                            style="color:#00264d !important;">
+                        <span class="badge badge-danger z-depth-0" style="background-color:#cc2900 !important; color:white;"><?php echo $category; ?></span>
+                        <h6 class="font-weight-bold"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                            style="color:#001a33 !important;">
                             <?php echo $title; ?>
                         </a></strong></h6>
                         <!-- Excerpt -->
                         <!-- Read more button -->
-                        <a class="btn btn-sm mx-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
-                       > more</a>
+                        <p class="text-muted my-0">Admin | 22/April/2020</p>
+                         <a class="btn btn-sm mx-0 z-depth-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                       > more &nbsp;<i class="far fa-arrow-alt-circle-right"></i></a>
                 
                       </div>
                   </div>
@@ -835,7 +684,7 @@ else{
         <div class="col-12 mx-auto text-center" style="margin-left: 550px !important;">
           <div class="bx arrow-bottom  mx-auto z-depth-4" style="border-top: 5px solid white;margin-left: 300px;">
             <h3 class="text-center font-weight-bold mx-auto"  style="margin-left:300px;">SCIENCE&nbsp;
-              🔭</h3> 
+              ðŸ”­</h3> 
           </div> 
         </div>
       
@@ -1064,12 +913,14 @@ else{
   </section>
   </section>
   <!--SICENCE LAPTOP-->
- <section class="d-sm-block d-md-none d-lg-none"><!---------wild ---------------mobile------------------------>
-       <div class="box arrow-bottom text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none" style="border-top: 5px solid white;background-color:#00264d !important;margin-left:10px !important;">
-            <h6 class="text-center font-weight-bold mx-auto"  style="">SCIENCE&nbsp;
+ <section class="d-sm-block d-md-none d-lg-none container-fluid"><!---------wild ---------------mobile------------------------>
+       <div class=" text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none"
+       style="border-top:5px solid white;color:white;background-color:#cc0000 !important;height:60px;">
+            <h6 class="text-center font-weight-bold mx-auto"  style="line-height:60px;font-size:20px;">SCIENCE&nbsp;
+            <i class="fas fa-arrow-circle-right"></i>
               </h6> 
           </div>
-          <section>
+          <section class="container-fluid">
               <div class="row">
                     <?php 
                     $con=mysqli_connect("localhost","writewing","9005314@Ad","greatten");
@@ -1087,12 +938,12 @@ else{
                       
                     ?>
              
-                 <div class="col-12 d-block d-md-none d-lg-none my-1 card">
+                 <div class="col-sm-12 d-block d-md-none d-lg-none my-1">
             
                   <div class="row">
                     <div class="col-5">
                         <!-- Featured image -->
-                        <div class="view overlay z-depth-3 my-auto" style="margin-top:10px !important;">
+                        <div class="view overlay my-auto" style="margin-top:10px !important;">
                           <img class="img-fluid my-auto" src="images/<?php echo $img8; ?>" alt="Sample image" style="height:120px;width:100%;border-left:5px solid white;border-style:outset;">
                           <a>
                             <div class="mask rgba-white-slight"></div>
@@ -1103,16 +954,18 @@ else{
                       <!-- Grid column -->
                 
                       <!-- Grid column -->
-                      <div class="col-7">
+                      <div class="col-7 mt-2">
                         <!-- Post title -->
-                        <h6 class="font-weight-bold my-3"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
-                            style="color:#00264d !important;">
+                        <span class="badge badge-danger z-depth-0" style="background-color:#cc2900 !important; color:white;"><?php echo $category; ?></span>
+                        <h6 class="font-weight-bold"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                            style="color:#001a33 !important;">
                             <?php echo $title; ?>
                         </a></strong></h6>
                         <!-- Excerpt -->
                         <!-- Read more button -->
-                        <a class="btn btn-sm mx-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
-                       > more</a>
+                        <p class="text-muted my-0">Admin | 22/April/2020</p>
+                         <a class="btn btn-sm mx-0 z-depth-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                       > more &nbsp;<i class="far fa-arrow-alt-circle-right"></i></a>
                 
                       </div>
                   </div>
@@ -1151,7 +1004,7 @@ else{
         <div class="col-12 mx-auto text-center" style="margin-left: 550px !important;">
           <div class="bx arrow-bottom  mx-auto z-depth-4" style="border-top: 5px solid white;margin-left: 300px;">
             <h3 class="text-center font-weight-bold mx-auto"  style="margin-left:300px;">TECHNOLOGY&nbsp;
-              🤖</h3> 
+              ðŸ¤–</h3> 
           </div> 
          </div>
   <div class="col-6">
@@ -1310,12 +1163,14 @@ else{
   </section>
   <!--MOBILE TECH -->
   
-   <section class="d-sm-block d-md-none d-lg-none"><!---------wild ---------------mobile------------------------>
-       <div class="box arrow-bottom text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none" style="border-top: 5px solid white;background-color:#00264d !important;margin-left:10px !important;">
-            <h6 class="text-center font-weight-bold mx-auto"  style="">TECHNOLOGY&nbsp;
+ <section class="d-sm-block d-md-none d-lg-none container-fluid"><!---------wild ---------------mobile------------------------>
+       <div class=" text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none"
+       style="border-top:5px solid white;color:white;background-color:#cc0000 !important;height:60px;">
+            <h6 class="text-center font-weight-bold mx-auto"  style="line-height:60px;font-size:20px;">TECHNOLOGY&nbsp;
+            <i class="fas fa-arrow-circle-right"></i>
               </h6> 
           </div>
-          <section>
+          <section class="container-fluid">
               <div class="row">
                     <?php 
                     $con=mysqli_connect("localhost","writewing","9005314@Ad","greatten");
@@ -1333,12 +1188,12 @@ else{
                       
                     ?>
              
-                 <div class="col-12 d-block d-md-none d-lg-none my-1 card">
+                 <div class="col-sm-12 d-block d-md-none d-lg-none my-1">
             
                   <div class="row">
                     <div class="col-5">
                         <!-- Featured image -->
-                        <div class="view overlay z-depth-3 my-auto" style="margin-top:10px !important;">
+                        <div class="view overlay my-auto" style="margin-top:10px !important;">
                           <img class="img-fluid my-auto" src="images/<?php echo $img8; ?>" alt="Sample image" style="height:120px;width:100%;border-left:5px solid white;border-style:outset;">
                           <a>
                             <div class="mask rgba-white-slight"></div>
@@ -1349,16 +1204,18 @@ else{
                       <!-- Grid column -->
                 
                       <!-- Grid column -->
-                      <div class="col-7">
+                      <div class="col-7 mt-2">
                         <!-- Post title -->
-                        <h6 class="font-weight-bold my-3"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
-                            style="color:#00264d !important;">
+                        <span class="badge badge-danger z-depth-0" style="background-color:#cc2900 !important; color:white;"><?php echo $category; ?></span>
+                        <h6 class="font-weight-bold"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                            style="color:#001a33 !important;">
                             <?php echo $title; ?>
                         </a></strong></h6>
                         <!-- Excerpt -->
                         <!-- Read more button -->
-                        <a class="btn btn-sm mx-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
-                       > more</a>
+                        <p class="text-muted my-0">Admin | 22/April/2020</p>
+                         <a class="btn btn-sm mx-0 z-depth-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                       > more &nbsp;<i class="far fa-arrow-alt-circle-right"></i></a>
                 
                       </div>
                   </div>
@@ -1396,7 +1253,7 @@ else{
 <div class="col-12 mx-auto text-center" style="margin-left: 550px !important;">
           <div class="bx arrow-bottom  mx-auto z-depth-4" style="border-top: 5px solid white;margin-left: 300px;">
             <h3 class="text-center font-weight-bold mx-auto"  style="margin-left:300px;">PEOPLE&nbsp;
-              🤖</h3> 
+              ðŸ¤–</h3> 
           </div> 
          </div>
       <!--Grid column-->
@@ -1651,12 +1508,14 @@ else{
   
   <!---MOBILE PEOPLE -->
   
-    <section class="d-sm-block d-md-none d-lg-none"><!---------wild ---------------mobile------------------------>
-       <div class="box arrow-bottom text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none" style="border-top: 5px solid white;background-color:#00264d !important;margin-left:10px !important;">
-            <h6 class="text-center font-weight-bold mx-auto"  style="">PEOPLE&nbsp;
+   <section class="d-sm-block d-md-none d-lg-none container-fluid"><!---------wild ---------------mobile------------------------>
+       <div class=" text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none"
+       style="border-top:5px solid white;color:white;background-color:#cc0000 !important;height:60px;">
+            <h6 class="text-center font-weight-bold mx-auto"  style="line-height:60px;font-size:20px;">PEOPLE&nbsp;
+            <i class="fas fa-arrow-circle-right"></i>
               </h6> 
           </div>
-          <section>
+          <section class="container-fluid">
               <div class="row">
                     <?php 
                     $con=mysqli_connect("localhost","writewing","9005314@Ad","greatten");
@@ -1674,12 +1533,12 @@ else{
                       
                     ?>
              
-                 <div class="col-12 d-block d-md-none d-lg-none my-1 card">
+                 <div class="col-sm-12 d-block d-md-none d-lg-none my-1">
             
                   <div class="row">
                     <div class="col-5">
                         <!-- Featured image -->
-                        <div class="view overlay z-depth-3 my-auto" style="margin-top:10px !important;">
+                        <div class="view overlay my-auto" style="margin-top:10px !important;">
                           <img class="img-fluid my-auto" src="images/<?php echo $img8; ?>" alt="Sample image" style="height:120px;width:100%;border-left:5px solid white;border-style:outset;">
                           <a>
                             <div class="mask rgba-white-slight"></div>
@@ -1690,16 +1549,18 @@ else{
                       <!-- Grid column -->
                 
                       <!-- Grid column -->
-                      <div class="col-7">
+                      <div class="col-7 mt-2">
                         <!-- Post title -->
-                        <h6 class="font-weight-bold my-3"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
-                            style="color:#00264d !important;">
+                        <span class="badge badge-danger z-depth-0" style="background-color:#cc2900 !important; color:white;"><?php echo $category; ?></span>
+                        <h6 class="font-weight-bold"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                            style="color:#001a33 !important;">
                             <?php echo $title; ?>
                         </a></strong></h6>
                         <!-- Excerpt -->
                         <!-- Read more button -->
-                        <a class="btn btn-sm mx-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
-                       > more</a>
+                        <p class="text-muted my-0">Admin | 22/April/2020</p>
+                         <a class="btn btn-sm mx-0 z-depth-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                       > more &nbsp;<i class="far fa-arrow-alt-circle-right"></i></a>
                 
                       </div>
                   </div>
@@ -1722,9 +1583,8 @@ else{
    
   </section>
   
-  
       
-<section>
+<section class="d-none d-lg-block">
     <div class="container-fluid" id="second">
       <div class="text-center">
         
@@ -1829,7 +1689,7 @@ else{
                <p class="badge badge-danger"><?php echo $category; ?></p>
                <div class="d-flex justify-content-between">
                  <div class="col-12 pl-0 mb-3">
-                   <a href="#!" style="color:#00264d !important;font-weight:normal;"><?php echo $title; ?></a>
+                   <a href="include/fulldetail.php?id=<?php echo $id; ?>" style="color:#00264d !important;font-weight:normal;"><?php echo $title; ?></a>
                  </div>
                  
                </div>
@@ -1951,7 +1811,7 @@ else{
                <p class="badge badge-danger"><?php echo $category; ?></p>
                <div class="d-flex justify-content-between">
                  <div class="col-12 pl-0 mb-3">
-                   <a href="#!" style="color:#00264d !important;font-weight:normal;"><?php echo $title; ?></a>
+                   <a href="include/fulldetail.php?id=<?php echo $id; ?>" style="color:#00264d !important;font-weight:normal;"><?php echo $title; ?></a>
                  </div>
                  
                </div>
@@ -1984,8 +1844,85 @@ else{
       </div><!--row end-->
     </div>
    </section>
+   <section class="d-sm-block d-md-none d-lg-none container-fluid"><!---------wild ---------------mobile------------------------>
+       <div class=" text-center mx-auto z-depth-1 d-sm-block d-md-none d-lg-none"
+       style="border-top:5px solid white;color:white;background-color:#cc0000 !important;height:60px;">
+            <h6 class="text-center font-weight-bold mx-auto"  style="line-height:60px;font-size:20px;">DEFENCE&nbsp;
+            <i class="fas fa-arrow-circle-right"></i>
+              </h6> 
+          </div>
+          <section class="container-fluid">
+              <div class="row">
+                    <?php 
+                    $con=mysqli_connect("localhost","writewing","9005314@Ad","greatten");
+                    
+                    $sel="SELECT * FROM topten where category='DEFENCE' limit 0,16";
+                    if($result=mysqli_query($con,$sel)){
+                       
+                        while($row=mysqli_fetch_assoc($result)){
+                           
+                           $title=$row["title"];
+                           $category=$row["category"];
+                           $img8=$row["img8"];
+                           $id=$row["id"];
+                        //   $id2=md5($id);
+                      
+                    ?>
+             
+                 <div class="col-sm-12 d-block d-md-none d-lg-none my-1">
+            
+                  <div class="row">
+                    <div class="col-5">
+                        <!-- Featured image -->
+                        <div class="view overlay my-auto" style="margin-top:10px !important;">
+                          <img class="img-fluid my-auto" src="images/<?php echo $img8; ?>" alt="Sample image" style="height:120px;width:100%;border-left:5px solid white;border-style:outset;">
+                          <a>
+                            <div class="mask rgba-white-slight"></div>
+                          </a>
+                        </div>
+                
+                      </div>
+                      <!-- Grid column -->
+                
+                      <!-- Grid column -->
+                      <div class="col-7 mt-2">
+                        <!-- Post title -->
+                        <span class="badge badge-danger z-depth-0" style="background-color:#cc2900 !important; color:white;"><?php echo $category; ?></span>
+                        <h6 class="font-weight-bold"><strong><a href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                            style="color:#001a33 !important;">
+                            <?php echo $title; ?>
+                        </a></strong></h6>
+                        <!-- Excerpt -->
+                        <!-- Read more button -->
+                        <p class="text-muted my-0">Admin | 22/April/2020</p>
+                         <a class="btn btn-sm mx-0 z-depth-0" style="background-color:#00264d !important;color:white;" href="include/fulldetail.php?id=<?php echo $id; ?>" 
+                       > more &nbsp;<i class="far fa-arrow-alt-circle-right"></i></a>
+                
+                      </div>
+                  </div>
+              
+       
+            </div><!--mobile verson -->
+              <?php
+            
+                        }
+                        
+                    }
+                    else{
+                       
+                        echo mysqli_error($con);
+                    }
+            
+            ?>
+             </div>
+          </section>
+   
+  </section>
   
-  
+     <section>
+        <?php include("include/footer.php"); ?>
+    </section>
+  </body>
   
   
   
